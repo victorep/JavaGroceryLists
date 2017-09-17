@@ -1,4 +1,4 @@
-package me.vepu.GroceryListApp;
+package me.vepu.GroceryListApp.DataLayer;
 
 import java.io.File;
 

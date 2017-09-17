@@ -1,7 +1,9 @@
-package me.vepu.GroceryListApp;
+package me.vepu.GroceryListApp.GroceryList;
 
 import me.vepu.GroceryListApp.InheritClasses.CRUDObject;
+import me.vepu.GroceryListApp.User.User;
 import me.vepu.GroceryListApp.interfaces.CRUDable;
+import me.vepu.cmdTools.CmdOutput;
 
 import java.util.Date;
 
@@ -42,4 +44,5 @@ public class GroceryItem extends CRUDObject implements CRUDable {
     public void setName(String name) {
         this.name = name;
     }
+
 }
